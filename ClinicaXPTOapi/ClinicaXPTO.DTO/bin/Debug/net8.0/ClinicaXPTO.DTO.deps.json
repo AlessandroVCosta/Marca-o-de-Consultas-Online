@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "ClinicaXPTO.DTO/1.0.0": {
+        "dependencies": {
+          "ClinicaXPTO.MODEL": "1.0.0"
+        },
+        "runtime": {
+          "ClinicaXPTO.DTO.dll": {}
+        }
+      },
+      "ClinicaXPTO.MODEL/1.0.0": {
+        "runtime": {
+          "ClinicaXPTO.MODEL.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ClinicaXPTO.DTO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ClinicaXPTO.MODEL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

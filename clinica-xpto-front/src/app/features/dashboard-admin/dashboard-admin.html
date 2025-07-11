@@ -1,0 +1,41 @@
+<div class="dashboard-container">
+  <h2>Pedidos de Marcação</h2>
+  <p>Gestão de marcações recebidas.</p>
+
+  <div class="search-bar">
+    <input
+      type="text"
+      [(ngModel)]="searchTerm"
+      placeholder="Pesquisar por utilizador, data ou serviço"
+      class="form-control"
+    />
+  </div>
+
+  <table class="table table-striped mt-4">
+    <thead>
+      <tr>
+        <th>Utilizador</th>
+        <th>Serviço</th>
+        <th>Data</th>
+        <th>Estado</th>
+        <th>Ações</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let a of filteredAppointments">
+        <td>{{ a.user }}</td>
+        <td>{{ a.service }}</td>
+        <td>{{ a.date }}</td>
+        <td>
+          <span class="badge" [ngClass]="{
+            'bg-warning': a.status === 'Pending',
+            'bg-success': a.status === 'Confirmed',
+            'bg-secondary': a.status === 'Rescheduled',
+            'bg-danger': a.status === 'Cancelled'
+          }">{{ a.status }}</span>
+        </td>
+        <td><a href="#" class="btn btn-outline-primary btn-sm">Ver detalhes</a></td>
+      </tr>
+    </tbody>
+  </table>
+</div>

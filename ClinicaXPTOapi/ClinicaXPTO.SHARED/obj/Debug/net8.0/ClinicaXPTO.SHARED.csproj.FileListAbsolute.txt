@@ -1,0 +1,17 @@
+C:\Users\aless\OneDrive\Documentos\Projecto AW\API\ClinicaXPTOapi\ClinicaXPTO.SHARED\bin\Debug\net8.0\ClinicaXPTO.SHARED.deps.json
+C:\Users\aless\OneDrive\Documentos\Projecto AW\API\ClinicaXPTOapi\ClinicaXPTO.SHARED\bin\Debug\net8.0\ClinicaXPTO.SHARED.dll
+C:\Users\aless\OneDrive\Documentos\Projecto AW\API\ClinicaXPTOapi\ClinicaXPTO.SHARED\bin\Debug\net8.0\ClinicaXPTO.SHARED.pdb
+C:\Users\aless\OneDrive\Documentos\Projecto AW\API\ClinicaXPTOapi\ClinicaXPTO.SHARED\obj\Debug\net8.0\ClinicaXPTO.SHARED.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aless\OneDrive\Documentos\Projecto AW\API\ClinicaXPTOapi\ClinicaXPTO.SHARED\obj\Debug\net8.0\ClinicaXPTO.SHARED.AssemblyInfoInputs.cache
+C:\Users\aless\OneDrive\Documentos\Projecto AW\API\ClinicaXPTOapi\ClinicaXPTO.SHARED\obj\Debug\net8.0\ClinicaXPTO.SHARED.AssemblyInfo.cs
+C:\Users\aless\OneDrive\Documentos\Projecto AW\API\ClinicaXPTOapi\ClinicaXPTO.SHARED\obj\Debug\net8.0\ClinicaXPTO.SHARED.csproj.CoreCompileInputs.cache
+C:\Users\aless\OneDrive\Documentos\Projecto AW\API\ClinicaXPTOapi\ClinicaXPTO.SHARED\obj\Debug\net8.0\ClinicaXPTO.SHARED.dll
+C:\Users\aless\OneDrive\Documentos\Projecto AW\API\ClinicaXPTOapi\ClinicaXPTO.SHARED\obj\Debug\net8.0\refint\ClinicaXPTO.SHARED.dll
+C:\Users\aless\OneDrive\Documentos\Projecto AW\API\ClinicaXPTOapi\ClinicaXPTO.SHARED\obj\Debug\net8.0\ClinicaXPTO.SHARED.pdb
+C:\Users\aless\OneDrive\Documentos\Projecto AW\API\ClinicaXPTOapi\ClinicaXPTO.SHARED\obj\Debug\net8.0\ref\ClinicaXPTO.SHARED.dll
+C:\Users\aless\OneDrive\Documentos\Projecto AW\API\ClinicaXPTOapi\ClinicaXPTO.SHARED\obj\Debug\net8.0\ClinicaXPTO.SHARED.csproj.AssemblyReference.cache
+C:\Users\aless\OneDrive\Documentos\Projecto AW\API\ClinicaXPTOapi\ClinicaXPTO.SHARED\bin\Debug\net8.0\ClinicaXPTO.DTO.dll
+C:\Users\aless\OneDrive\Documentos\Projecto AW\API\ClinicaXPTOapi\ClinicaXPTO.SHARED\bin\Debug\net8.0\ClinicaXPTO.MODEL.dll
+C:\Users\aless\OneDrive\Documentos\Projecto AW\API\ClinicaXPTOapi\ClinicaXPTO.SHARED\bin\Debug\net8.0\ClinicaXPTO.DTO.pdb
+C:\Users\aless\OneDrive\Documentos\Projecto AW\API\ClinicaXPTOapi\ClinicaXPTO.SHARED\bin\Debug\net8.0\ClinicaXPTO.MODEL.pdb
+C:\Users\aless\OneDrive\Documentos\Projecto AW\API\ClinicaXPTOapi\ClinicaXPTO.SHARED\obj\Debug\net8.0\ClinicaX.FD256F56.Up2Date

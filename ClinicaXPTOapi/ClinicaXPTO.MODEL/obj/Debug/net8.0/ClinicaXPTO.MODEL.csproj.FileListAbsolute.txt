@@ -1,0 +1,11 @@
+C:\Users\aless\OneDrive\Documentos\Projecto AW\API\ClinicaXPTOapi\ClinicaXPTO.MODEL\bin\Debug\net8.0\ClinicaXPTO.MODEL.deps.json
+C:\Users\aless\OneDrive\Documentos\Projecto AW\API\ClinicaXPTOapi\ClinicaXPTO.MODEL\bin\Debug\net8.0\ClinicaXPTO.MODEL.dll
+C:\Users\aless\OneDrive\Documentos\Projecto AW\API\ClinicaXPTOapi\ClinicaXPTO.MODEL\bin\Debug\net8.0\ClinicaXPTO.MODEL.pdb
+C:\Users\aless\OneDrive\Documentos\Projecto AW\API\ClinicaXPTOapi\ClinicaXPTO.MODEL\obj\Debug\net8.0\ClinicaXPTO.MODEL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aless\OneDrive\Documentos\Projecto AW\API\ClinicaXPTOapi\ClinicaXPTO.MODEL\obj\Debug\net8.0\ClinicaXPTO.MODEL.AssemblyInfoInputs.cache
+C:\Users\aless\OneDrive\Documentos\Projecto AW\API\ClinicaXPTOapi\ClinicaXPTO.MODEL\obj\Debug\net8.0\ClinicaXPTO.MODEL.AssemblyInfo.cs
+C:\Users\aless\OneDrive\Documentos\Projecto AW\API\ClinicaXPTOapi\ClinicaXPTO.MODEL\obj\Debug\net8.0\ClinicaXPTO.MODEL.csproj.CoreCompileInputs.cache
+C:\Users\aless\OneDrive\Documentos\Projecto AW\API\ClinicaXPTOapi\ClinicaXPTO.MODEL\obj\Debug\net8.0\ClinicaXPTO.MODEL.dll
+C:\Users\aless\OneDrive\Documentos\Projecto AW\API\ClinicaXPTOapi\ClinicaXPTO.MODEL\obj\Debug\net8.0\refint\ClinicaXPTO.MODEL.dll
+C:\Users\aless\OneDrive\Documentos\Projecto AW\API\ClinicaXPTOapi\ClinicaXPTO.MODEL\obj\Debug\net8.0\ClinicaXPTO.MODEL.pdb
+C:\Users\aless\OneDrive\Documentos\Projecto AW\API\ClinicaXPTOapi\ClinicaXPTO.MODEL\obj\Debug\net8.0\ref\ClinicaXPTO.MODEL.dll

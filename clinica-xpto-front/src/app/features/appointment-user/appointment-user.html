@@ -1,0 +1,64 @@
+<div class="user-appointment-container">
+  <h2>Nova Marcação</h2>
+  <form (ngSubmit)="submitRequest()" #form="ngForm">
+    <div class="form-group">
+      <label>Nome Completo</label>
+      <input
+        type="text"
+        name="fullName"
+        [(ngModel)]="fullName"
+        disabled
+        class="form-control"
+      />
+    </div>
+
+    <div class="form-group">
+      <label>Email</label>
+      <input
+        type="email"
+        name="email"
+        [(ngModel)]="email"
+        disabled
+        class="form-control"
+      />
+    </div>
+
+    <div class="form-group">
+      <label>Serviço</label>
+      <select
+        name="service"
+        [(ngModel)]="service"
+        required
+        class="form-control"
+      >
+        <option value="">Selecione um serviço</option>
+        <option value="consulta">Consulta Geral</option>
+        <option value="fisioterapia">Fisioterapia</option>
+        <option value="psicologia">Psicologia</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label>Data da Consulta</label>
+      <input
+        type="date"
+        name="date"
+        [(ngModel)]="date"
+        required
+        class="form-control"
+      />
+    </div>
+
+    <div class="form-group">
+      <label>Mensagem Adicional</label>
+      <textarea
+        name="message"
+        [(ngModel)]="message"
+        class="form-control"
+        placeholder="Comentários adicionais"
+      ></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-success">Enviar Pedido</button>
+  </form>
+</div>

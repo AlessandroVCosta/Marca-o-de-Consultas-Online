@@ -1,0 +1,12 @@
+<div class="admin-panel">
+  <h2>Administração do Sistema</h2>
+  <p>Bem-vindo ao painel do administrador. Selecione uma secção para gerir.</p>
+
+  <div class="card-grid">
+    <div class="admin-card" *ngFor="let card of cards">
+      <div class="icon">{{ card.icon }}</div>
+      <h3>{{ card.title }}</h3>
+      <a [routerLink]="card.route" class="btn btn-outline-dark">Acessar</a>
+    </div>
+  </div>
+</div>

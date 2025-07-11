@@ -1,0 +1,6 @@
+@ClinicaXPTOapi_HostAddress = http://localhost:5183
+
+GET {{ClinicaXPTOapi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

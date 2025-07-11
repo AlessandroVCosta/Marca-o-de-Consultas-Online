@@ -1,0 +1,66 @@
+<div class="anon-appointment-container">
+  <h2>Solicitar Marcação</h2>
+  <form (ngSubmit)="submitRequest()" #form="ngForm">
+    <div class="form-group">
+      <label>Nome Completo</label>
+      <input
+        type="text"
+        name="fullName"
+        [(ngModel)]="fullName"
+        required
+        class="form-control"
+        placeholder="Seu nome"
+      />
+    </div>
+
+    <div class="form-group">
+      <label>Email</label>
+      <input
+        type="email"
+        name="email"
+        [(ngModel)]="email"
+        required
+        class="form-control"
+        placeholder="seu@email.com"
+      />
+    </div>
+
+    <div class="form-group">
+      <label>Serviço</label>
+      <select
+        name="service"
+        [(ngModel)]="service"
+        required
+        class="form-control"
+      >
+        <option value="">Selecione um serviço</option>
+        <option value="consulta">Consulta Geral</option>
+        <option value="dentista">Consulta Dentária</option>
+        <option value="nutricao">Consulta Nutricional</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label>Data Preferencial</label>
+      <input
+        type="date"
+        name="date"
+        [(ngModel)]="date"
+        required
+        class="form-control"
+      />
+    </div>
+
+    <div class="form-group">
+      <label>Mensagem Adicional (opcional)</label>
+      <textarea
+        name="message"
+        [(ngModel)]="message"
+        class="form-control"
+        placeholder="Descreva brevemente o motivo ou preferências..."
+      ></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Enviar Pedido</button>
+  </form>
+</div>

@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\aless\\OneDrive\\Documentos\\Projecto AW\\API\\ClinicaXPTOapi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8807406B-5D3F-416C-B485-F06CC0CA1603}|ClinicaXPTO.SERVICE\\ClinicaXPTO.SERVICE.csproj|c:\\users\\aless\\onedrive\\documentos\\projecto aw\\api\\clinicaxptoapi\\clinicaxpto.service\\services\\appointmentrequestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8807406B-5D3F-416C-B485-F06CC0CA1603}|ClinicaXPTO.SERVICE\\ClinicaXPTO.SERVICE.csproj|solutionrelative:clinicaxpto.service\\services\\appointmentrequestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F624789-B183-48F8-8190-8BA8F39EA37C}|ClinicaXPTO.SHARED\\ClinicaXPTO.SHARED.csproj|c:\\users\\aless\\onedrive\\documentos\\projecto aw\\api\\clinicaxptoapi\\clinicaxpto.shared\\iservice\\iappointmentrequestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F624789-B183-48F8-8190-8BA8F39EA37C}|ClinicaXPTO.SHARED\\ClinicaXPTO.SHARED.csproj|solutionrelative:clinicaxpto.shared\\iservice\\iappointmentrequestservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18D7E663-A189-4697-8600-D53E08CE6CE4}|ClinicaXPTOapi\\ClinicaXPTOapi.csproj|c:\\users\\aless\\onedrive\\documentos\\projecto aw\\api\\clinicaxptoapi\\clinicaxptoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18D7E663-A189-4697-8600-D53E08CE6CE4}|ClinicaXPTOapi\\ClinicaXPTOapi.csproj|solutionrelative:clinicaxptoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8807406B-5D3F-416C-B485-F06CC0CA1603}|ClinicaXPTO.SERVICE\\ClinicaXPTO.SERVICE.csproj|c:\\users\\aless\\onedrive\\documentos\\projecto aw\\api\\clinicaxptoapi\\clinicaxpto.service\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8807406B-5D3F-416C-B485-F06CC0CA1603}|ClinicaXPTO.SERVICE\\ClinicaXPTO.SERVICE.csproj|solutionrelative:clinicaxpto.service\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F624789-B183-48F8-8190-8BA8F39EA37C}|ClinicaXPTO.SHARED\\ClinicaXPTO.SHARED.csproj|c:\\users\\aless\\onedrive\\documentos\\projecto aw\\api\\clinicaxptoapi\\clinicaxpto.shared\\iservice\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F624789-B183-48F8-8190-8BA8F39EA37C}|ClinicaXPTO.SHARED\\ClinicaXPTO.SHARED.csproj|solutionrelative:clinicaxpto.shared\\iservice\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18D7E663-A189-4697-8600-D53E08CE6CE4}|ClinicaXPTOapi\\ClinicaXPTOapi.csproj|c:\\users\\aless\\onedrive\\documentos\\projecto aw\\api\\clinicaxptoapi\\clinicaxptoapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{18D7E663-A189-4697-8600-D53E08CE6CE4}|ClinicaXPTOapi\\ClinicaXPTOapi.csproj|solutionrelative:clinicaxptoapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppointmentRequestService.cs",
+              "DocumentMoniker": "C:\\Users\\aless\\OneDrive\\Documentos\\Projecto AW\\API\\ClinicaXPTOapi\\ClinicaXPTO.SERVICE\\Services\\AppointmentRequestService.cs",
+              "RelativeDocumentMoniker": "ClinicaXPTO.SERVICE\\Services\\AppointmentRequestService.cs",
+              "ToolTip": "C:\\Users\\aless\\OneDrive\\Documentos\\Projecto AW\\API\\ClinicaXPTOapi\\ClinicaXPTO.SERVICE\\Services\\AppointmentRequestService.cs",
+              "RelativeToolTip": "ClinicaXPTO.SERVICE\\Services\\AppointmentRequestService.cs",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAwwIsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T22:31:48.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IAppointmentRequestService.cs",
+              "DocumentMoniker": "C:\\Users\\aless\\OneDrive\\Documentos\\Projecto AW\\API\\ClinicaXPTOapi\\ClinicaXPTO.SHARED\\IService\\IAppointmentRequestService.cs",
+              "RelativeDocumentMoniker": "ClinicaXPTO.SHARED\\IService\\IAppointmentRequestService.cs",
+              "ToolTip": "C:\\Users\\aless\\OneDrive\\Documentos\\Projecto AW\\API\\ClinicaXPTOapi\\ClinicaXPTO.SHARED\\IService\\IAppointmentRequestService.cs",
+              "RelativeToolTip": "ClinicaXPTO.SHARED\\IService\\IAppointmentRequestService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T22:31:22.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\aless\\OneDrive\\Documentos\\Projecto AW\\API\\ClinicaXPTOapi\\ClinicaXPTOapi\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "ClinicaXPTOapi\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\aless\\OneDrive\\Documentos\\Projecto AW\\API\\ClinicaXPTOapi\\ClinicaXPTOapi\\appsettings.Development.json",
+              "RelativeToolTip": "ClinicaXPTOapi\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-11T22:25:14.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\aless\\OneDrive\\Documentos\\Projecto AW\\API\\ClinicaXPTOapi\\ClinicaXPTOapi\\Program.cs",
+              "RelativeDocumentMoniker": "ClinicaXPTOapi\\Program.cs",
+              "ToolTip": "C:\\Users\\aless\\OneDrive\\Documentos\\Projecto AW\\API\\ClinicaXPTOapi\\ClinicaXPTOapi\\Program.cs",
+              "RelativeToolTip": "ClinicaXPTOapi\\Program.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T22:21:10.132Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\aless\\OneDrive\\Documentos\\Projecto AW\\API\\ClinicaXPTOapi\\ClinicaXPTO.SERVICE\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "ClinicaXPTO.SERVICE\\Services\\EmailService.cs",
+              "ToolTip": "C:\\Users\\aless\\OneDrive\\Documentos\\Projecto AW\\API\\ClinicaXPTOapi\\ClinicaXPTO.SERVICE\\Services\\EmailService.cs",
+              "RelativeToolTip": "ClinicaXPTO.SERVICE\\Services\\EmailService.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAQwCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T22:17:17.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "C:\\Users\\aless\\OneDrive\\Documentos\\Projecto AW\\API\\ClinicaXPTOapi\\ClinicaXPTO.SHARED\\IService\\IEmailService.cs",
+              "RelativeDocumentMoniker": "ClinicaXPTO.SHARED\\IService\\IEmailService.cs",
+              "ToolTip": "C:\\Users\\aless\\OneDrive\\Documentos\\Projecto AW\\API\\ClinicaXPTOapi\\ClinicaXPTO.SHARED\\IService\\IEmailService.cs",
+              "RelativeToolTip": "ClinicaXPTO.SHARED\\IService\\IEmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T22:15:29.825Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
