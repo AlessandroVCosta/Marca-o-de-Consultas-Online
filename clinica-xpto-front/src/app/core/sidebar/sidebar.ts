@@ -1,6 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, Inject } from '@angular/core';
 import { RouterLink, RouterLinkWithHref } from '@angular/router';
-import { CommonModule } from '@angular/common';
+import { CommonModule, isPlatformBrowser } from '@angular/common';
+import { PLATFORM_ID } from '@angular/core';
 
 @Component({
   selector: 'app-sidebar',
@@ -10,5 +11,9 @@ import { CommonModule } from '@angular/common';
   imports: [CommonModule, RouterLink, RouterLinkWithHref]
 })
 export class Sidebar {
-  // No futuro: pode vir a usar role para mostrar menus diferentes
+  constructor(@Inject(PLATFORM_ID) private platformId: Object) {}
+
+  isBrowser(): boolean {
+    return isPlatformBrowser(this.platformId);
+  }
 }

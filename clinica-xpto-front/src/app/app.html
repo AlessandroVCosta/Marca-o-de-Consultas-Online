@@ -1,8 +1,10 @@
-<app-header *ngIf="isLoggedIn(); else notLogged"></app-header>
-<ng-template #notLogged>
-  <app-header-nologged></app-header-nologged>
-</ng-template>
+<ng-container *ngIf="hydrated()">
+  <app-header *ngIf="isLoggedIn(); else notLogged"></app-header>
+  <ng-template #notLogged>
+    <app-header-nologged></app-header-nologged>
+  </ng-template>
 
-<router-outlet></router-outlet>
+  <router-outlet></router-outlet>
+</ng-container>
 
 <app-footer></app-footer>

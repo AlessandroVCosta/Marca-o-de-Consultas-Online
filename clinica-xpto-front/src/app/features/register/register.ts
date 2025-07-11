@@ -1,14 +1,21 @@
-import { Component } from '@angular/core';
-import { HeaderNologged } from '../../core/header-nologged/header-nologged';
-import { Footer } from '../../core/footer/footer';
+import { Component, Inject } from '@angular/core';
+import { RouterLink } from '@angular/router';
+import { CommonModule, isPlatformBrowser } from '@angular/common';
+import { PLATFORM_ID } from '@angular/core';
+
 
 @Component({
   selector: 'app-register',
   standalone: true,
-  imports: [HeaderNologged, Footer],
+  imports: [CommonModule, RouterLink],
   templateUrl: './register.html',
   styleUrls: ['./register.css']
 })
 export class Register {
 
+constructor(@Inject(PLATFORM_ID) private platformId: Object) {}
+
+isBrowser(): boolean {
+  return isPlatformBrowser(this.platformId);
+}
 }

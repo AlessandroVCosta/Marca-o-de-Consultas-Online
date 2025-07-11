@@ -1,19 +1,35 @@
-import { Component } from '@angular/core';
+import { Component, Inject } from '@angular/core';
 import { RouterModule } from '@angular/router';
-
+import { isPlatformBrowser, CommonModule, ViewportScroller } from '@angular/common';
+import { PLATFORM_ID } from '@angular/core';
 
 @Component({
   selector: 'app-header',
   standalone: true,
-  imports: [RouterModule],
-  templateUrl: './header.html'
+  imports: [RouterModule, CommonModule],
+  templateUrl: './header.html',
+  styleUrls: ['./header.css']
 })
 export class Header {
+  constructor(
+    @Inject(PLATFORM_ID) private platformId: Object,
+    private scroller: ViewportScroller
+  ) {}
+
+  isBrowser(): boolean {
+    return isPlatformBrowser(this.platformId);
+  }
+
+  scrollTo(anchor: string) {
+    if (this.isBrowser()) {
+      this.scroller.scrollToAnchor(anchor);
+    }
+  }
 
   logout() {
-  // Apague token/autenticação do localStorage (exemplo)
-  localStorage.removeItem('authToken');
-  window.location.href = '/'; // ou use router.navigate
-}
-
+    if (this.isBrowser()) {
+      localStorage.removeItem('token');
+      window.location.href = '/';
+    }
+  }
 }

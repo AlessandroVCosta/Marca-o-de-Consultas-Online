@@ -1,4 +1,4 @@
-<app-header-nologged></app-header-nologged>
+
 
 <section class="login-section d-flex align-items-center justify-content-center vh-100">
   <div class="card p-4 shadow" style="max-width: 400px; width: 100%;">
@@ -17,8 +17,9 @@
     <p class="text-center mt-3">
       Não tem conta?
     </p>
-    <a routerLink="/register">Registre-se</a>
+    <a *ngIf="isBrowser()" routerLink="/register">Registre-se</a>
+
   </div>
 </section>
 
-<app-footer></app-footer>
+

@@ -1,39 +1,83 @@
-<app-header-nologged></app-header-nologged>
 
+
+<!-- Início -->
 <section id="inicio" class="hero d-flex align-items-center justify-content-center text-center pt-5">
   <div>
     <h1 class="display-4 fw-bold mb-3">Bem-vindo à XPTO Clinic</h1>
     <p class="lead mb-4">Cuidamos da sua saúde com eficiência, tecnologia e humanidade.</p>
     <div class="d-flex justify-content-center gap-2">
-      <a routerLink="/appointment-anon" class="btn btn-primary btn-lg">Marcar Consulta</a>
-      <a routerLink="/register" class="btn btn-outline-primary btn-lg">Registre-se</a>
+      <a *ngIf="isBrowser()" routerLink="/appointment-anon" class="btn btn-primary btn-lg">Marcar Consulta</a>
+      <a *ngIf="isBrowser()" routerLink="/register" class="btn btn-outline-primary btn-lg">Registre-se</a>
     </div>
   </div>
 </section>
 
-<section id="servicos" class="info container text-center py-5 pt-5">
+<!-- Serviços -->
+<section id="servicos" class="container py-5 pt-5 text-center">
+  <h2 class="fw-bold mb-4">Nossos Serviços</h2>
   <div class="row">
     <div class="col-md-4 mb-4">
-      <h4>Profissionais Especializados</h4>
-      <p>Equipe multidisciplinar qualificada para te atender com excelência.</p>
+      <h4>Clínica Geral</h4>
+      <p>Consultas com médicos experientes para diagnóstico e encaminhamento especializado.</p>
     </div>
     <div class="col-md-4 mb-4">
-      <h4>Atendimento Ágil</h4>
-      <p>Agende sua consulta online de forma rápida e prática, sem complicações.</p>
+      <h4>Pediatria</h4>
+      <p>Atendimento carinhoso e cuidadoso para crianças de todas as idades.</p>
     </div>
     <div class="col-md-4 mb-4">
-      <h4>100% Digital</h4>
-      <p>Todo o processo pode ser feito online: cadastro, agendamento, acompanhamento.</p>
+      <h4>Exames Laboratoriais</h4>
+      <p>Coleta e análise com equipamentos modernos, agendamento online e resultados digitais.</p>
     </div>
   </div>
 </section>
 
-<section id="sobre" class="container text-center py-5 pt-5">
-  <h2 class="fw-bold mb-4">Sobre a Clínica</h2>
-  <p>
-    A XPTO Clinic é uma referência em atendimento humanizado e tecnologia em saúde.
-    Com uma equipe comprometida, oferecemos excelência e inovação no cuidado com os nossos pacientes.
-  </p>
+<!-- Profissionais -->
+<section id="professionals" class="bg-light py-5">
+  <div class="container text-center">
+    <h2 class="fw-bold mb-4">Nossos Profissionais</h2>
+    <div class="row">
+      <div class="col-md-3 mb-4">
+        <img src="assets/doctor1.jpg" alt="Dr. João" class="img-square mb-2" width="100">
+        <h5>Dr. João Silva</h5>
+        <p>Clínico Geral</p>
+      </div>
+      <div class="col-md-3 mb-4">
+        <img src="assets/doctor2.jpg" alt="Dra. Ana" class="img-square mb-2" width="100">
+        <h5>Dra. Ana Costa</h5>
+        <p>Pediatra</p>
+      </div>
+      <div class="col-md-3 mb-4">
+        <img src="assets/doctor3.jpg" alt="Dr. Marcos" class="img-square mb-2" width="100">
+        <h5>Dr. Marcos Lima</h5>
+        <p>Cardiologista</p>
+      </div>
+      <div class="col-md-3 mb-4">
+        <img src="assets/doctor4.jpg" alt="Dra. Carla" class="img-square mb-2" width="100">
+        <h5>Dra. Carla Neves</h5>
+        <p>Dermatologista</p>
+      </div>
+    </div>
+  </div>
 </section>
 
-<app-footer></app-footer>
+<!-- Sobre -->
+<section id="sobre" class="container text-center py-5 pt-5">
+  <h2 class="fw-bold mb-4">Sobre a Clínica</h2>
+  <p class="mb-4">
+    A <strong>XPTO Clinic</strong> é referência em tecnologia e atendimento humanizado.
+    Fundada com o propósito de democratizar o acesso à saúde de qualidade, oferecemos serviços personalizados
+    com agendamento online, histórico de atendimentos e uma equipe qualificada.
+  </p>
+  <div class="row">
+    <div class="col-md-6">
+      <h5>Missão</h5>
+      <p>Oferecer saúde de forma prática, acessível e eficiente a todos os nossos pacientes.</p>
+    </div>
+    <div class="col-md-6">
+      <h5>Visão</h5>
+      <p>Ser reconhecida como a clínica digital mais confiável e eficiente do país.</p>
+    </div>
+  </div>
+</section>
+
+

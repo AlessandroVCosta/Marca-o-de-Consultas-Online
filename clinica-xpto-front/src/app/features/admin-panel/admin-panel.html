@@ -6,7 +6,8 @@
     <div class="admin-card" *ngFor="let card of cards">
       <div class="icon">{{ card.icon }}</div>
       <h3>{{ card.title }}</h3>
-      <a [routerLink]="card.route" class="btn btn-outline-dark">Acessar</a>
+      <a *ngIf="isBrowser()" [routerLink]="card.route" class="btn btn-outline-dark">Acessar</a>
+
     </div>
   </div>
 </div>

@@ -4,6 +4,10 @@
   padding: 2rem;
 }
 
+section {
+  scroll-margin-top: 80px;
+}
+
 h1 {
   font-size: 3rem;
   color: #0d6efd;
@@ -14,11 +18,16 @@ h1 {
   color: #555;
 }
 
-.info h4 {
+section h2 {
   color: #0d6efd;
-  margin-bottom: 0.5rem;
 }
 
-section {
-  scroll-margin-top: 80px; /* compensa o espaço do header fixo */
+
+
+.img-square {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 0; /* quadrado */
+  border: 3px solid #033e97;
 }

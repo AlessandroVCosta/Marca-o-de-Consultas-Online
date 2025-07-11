@@ -1,4 +1,4 @@
-<app-header-nologged></app-header-nologged>
+
 
 <section class="register-section d-flex align-items-center justify-content-center vh-100">
   <div class="card p-4 shadow" style="max-width: 500px; width: 100%;">
@@ -24,9 +24,8 @@
     </form>
     <p class="text-center mt-3">
       Já tem conta?
-      <a routerLink="/login">Faça login</a>
+      <a *ngIf="isBrowser()" routerLink="/login">Faça login</a>
+
     </p>
   </div>
 </section>
-
-<app-footer></app-footer>

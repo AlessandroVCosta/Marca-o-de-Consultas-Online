@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm px-5">
-  <a class="navbar-brand fw-bold text-primary" [routerLink]="['/']" fragment="home">XPTO Clinic</a>
+  <a *ngIf="isBrowser()" class="navbar-brand fw-bold text-primary" (click)="scrollTo('home')">XPTO Clinic</a>
   <button
     class="navbar-toggler"
     type="button"
@@ -15,19 +15,19 @@
   <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
     <ul class="navbar-nav">
       <li class="nav-item px-2">
-        <a class="nav-link" [routerLink]="['/']" fragment="home">Início</a>
+        <a *ngIf="isBrowser()" class="nav-link" (click)="scrollTo('home')">Início</a>
       </li>
       <li class="nav-item px-2">
-        <a class="nav-link" [routerLink]="['/']" fragment="services">Serviços</a>
+        <a *ngIf="isBrowser()" class="nav-link" (click)="scrollTo('services')">Serviços</a>
       </li>
       <li class="nav-item px-2">
-        <a class="nav-link" [routerLink]="['/appointment-user']">Marcar Consulta</a>
+        <a *ngIf="isBrowser()" class="nav-link" routerLink="/appointment-user">Marcar Consulta</a>
       </li>
       <li class="nav-item px-2">
-        <a class="nav-link" [routerLink]="['/user-profile']">Meus Pedidos</a>
+        <a *ngIf="isBrowser()" class="nav-link" routerLink="/user-profile">Meus Pedidos</a>
       </li>
       <li class="nav-item px-2">
-        <a class="btn btn-outline-danger btn-sm" (click)="logout()">Sair</a>
+        <a *ngIf="isBrowser()" class="btn btn-outline-danger btn-sm" (click)="logout()">Sair</a>
       </li>
     </ul>
   </div>

@@ -19,4 +19,3 @@ export const routes: Routes = [
   { path: 'admin-panel', component: AdminPanel },
   { path: 'user-profile', component: UserProfile }
 ];
-  

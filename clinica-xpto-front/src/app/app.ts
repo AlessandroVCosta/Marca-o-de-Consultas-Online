@@ -1,14 +1,31 @@
-import { Component } from '@angular/core';
+import { Component, Inject, effect, signal } from '@angular/core';
+import { CommonModule, isPlatformBrowser } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
+import { PLATFORM_ID } from '@angular/core';
 
+import { Header } from './core/header/header';
+import { HeaderNologged } from './core/header-nologged/header-nologged';
+import { Footer } from './core/footer/footer';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet],
+  imports: [CommonModule, RouterOutlet, Header, HeaderNologged, Footer],
   templateUrl: './app.html',
-  styleUrl: './app.css'
+  styleUrls: ['./app.css']
 })
 export class App {
-  protected title = 'clinica-xpto-front';
+  hydrated = signal(false);
+  private isBrowserPlatform = false;
+
+  constructor(@Inject(PLATFORM_ID) private platformId: Object) {
+    this.isBrowserPlatform = isPlatformBrowser(this.platformId);
+    if (this.isBrowserPlatform) {
+      effect(() => this.hydrated.set(true));
+    }
+  }
+
+  isLoggedIn(): boolean {
+    return this.isBrowserPlatform && !!localStorage.getItem('token');
+  }
 }
