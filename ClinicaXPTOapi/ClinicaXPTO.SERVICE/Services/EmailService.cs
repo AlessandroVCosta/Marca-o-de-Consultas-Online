@@ -1,4 +1,4 @@
-﻿// ClinicaXPTO.SERVICE/Services/EmailService.cs
+﻿
 using ClinicaXPTO.SHARED.IService;
 using Microsoft.Extensions.Configuration;
 using System.Net;

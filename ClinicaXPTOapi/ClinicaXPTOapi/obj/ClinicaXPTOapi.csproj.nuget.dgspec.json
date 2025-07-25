@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aless\\OneDrive\\Documentos\\Projecto AW\\ClinicaXPTOapi\\ClinicaXPTOapi\\ClinicaXPTOapi.csproj": {}
+    "C:\\Users\\aless\\OneDrive\\Documentos\\projAW\\ClinicaXPTOapi\\ClinicaXPTOapi\\ClinicaXPTOapi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aless\\OneDrive\\Documentos\\Projecto AW\\ClinicaXPTOapi\\ClinicaXPTO.DAL\\ClinicaXPTO.DAL.csproj": {
+    "C:\\Users\\aless\\OneDrive\\Documentos\\projAW\\ClinicaXPTOapi\\ClinicaXPTO.DAL\\ClinicaXPTO.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aless\\OneDrive\\Documentos\\Projecto AW\\ClinicaXPTOapi\\ClinicaXPTO.DAL\\ClinicaXPTO.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\aless\\OneDrive\\Documentos\\projAW\\ClinicaXPTOapi\\ClinicaXPTO.DAL\\ClinicaXPTO.DAL.csproj",
         "projectName": "ClinicaXPTO.DAL",
-        "projectPath": "C:\\Users\\aless\\OneDrive\\Documentos\\Projecto AW\\ClinicaXPTOapi\\ClinicaXPTO.DAL\\ClinicaXPTO.DAL.csproj",
+        "projectPath": "C:\\Users\\aless\\OneDrive\\Documentos\\projAW\\ClinicaXPTOapi\\ClinicaXPTO.DAL\\ClinicaXPTO.DAL.csproj",
         "packagesPath": "C:\\Users\\aless\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aless\\OneDrive\\Documentos\\Projecto AW\\ClinicaXPTOapi\\ClinicaXPTO.DAL\\obj\\",
+        "outputPath": "C:\\Users\\aless\\OneDrive\\Documentos\\projAW\\ClinicaXPTOapi\\ClinicaXPTO.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,11 +33,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\aless\\OneDrive\\Documentos\\Projecto AW\\ClinicaXPTOapi\\ClinicaXPTO.MODEL\\ClinicaXPTO.MODEL.csproj": {
-                "projectPath": "C:\\Users\\aless\\OneDrive\\Documentos\\Projecto AW\\ClinicaXPTOapi\\ClinicaXPTO.MODEL\\ClinicaXPTO.MODEL.csproj"
+              "C:\\Users\\aless\\OneDrive\\Documentos\\projAW\\ClinicaXPTOapi\\ClinicaXPTO.MODEL\\ClinicaXPTO.MODEL.csproj": {
+                "projectPath": "C:\\Users\\aless\\OneDrive\\Documentos\\projAW\\ClinicaXPTOapi\\ClinicaXPTO.MODEL\\ClinicaXPTO.MODEL.csproj"
               },
-              "C:\\Users\\aless\\OneDrive\\Documentos\\Projecto AW\\ClinicaXPTOapi\\ClinicaXPTO.SHARED\\ClinicaXPTO.SHARED.csproj": {
-                "projectPath": "C:\\Users\\aless\\OneDrive\\Documentos\\Projecto AW\\ClinicaXPTOapi\\ClinicaXPTO.SHARED\\ClinicaXPTO.SHARED.csproj"
+              "C:\\Users\\aless\\OneDrive\\Documentos\\projAW\\ClinicaXPTOapi\\ClinicaXPTO.SHARED\\ClinicaXPTO.SHARED.csproj": {
+                "projectPath": "C:\\Users\\aless\\OneDrive\\Documentos\\projAW\\ClinicaXPTOapi\\ClinicaXPTO.SHARED\\ClinicaXPTO.SHARED.csproj"
               }
             }
           }
@@ -99,14 +99,14 @@
         }
       }
     },
-    "C:\\Users\\aless\\OneDrive\\Documentos\\Projecto AW\\ClinicaXPTOapi\\ClinicaXPTO.DTO\\ClinicaXPTO.DTO.csproj": {
+    "C:\\Users\\aless\\OneDrive\\Documentos\\projAW\\ClinicaXPTOapi\\ClinicaXPTO.DTO\\ClinicaXPTO.DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aless\\OneDrive\\Documentos\\Projecto AW\\ClinicaXPTOapi\\ClinicaXPTO.DTO\\ClinicaXPTO.DTO.csproj",
+        "projectUniqueName": "C:\\Users\\aless\\OneDrive\\Documentos\\projAW\\ClinicaXPTOapi\\ClinicaXPTO.DTO\\ClinicaXPTO.DTO.csproj",
         "projectName": "ClinicaXPTO.DTO",
-        "projectPath": "C:\\Users\\aless\\OneDrive\\Documentos\\Projecto AW\\ClinicaXPTOapi\\ClinicaXPTO.DTO\\ClinicaXPTO.DTO.csproj",
+        "projectPath": "C:\\Users\\aless\\OneDrive\\Documentos\\projAW\\ClinicaXPTOapi\\ClinicaXPTO.DTO\\ClinicaXPTO.DTO.csproj",
         "packagesPath": "C:\\Users\\aless\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aless\\OneDrive\\Documentos\\Projecto AW\\ClinicaXPTOapi\\ClinicaXPTO.DTO\\obj\\",
+        "outputPath": "C:\\Users\\aless\\OneDrive\\Documentos\\projAW\\ClinicaXPTOapi\\ClinicaXPTO.DTO\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -128,8 +128,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\aless\\OneDrive\\Documentos\\Projecto AW\\ClinicaXPTOapi\\ClinicaXPTO.MODEL\\ClinicaXPTO.MODEL.csproj": {
-                "projectPath": "C:\\Users\\aless\\OneDrive\\Documentos\\Projecto AW\\ClinicaXPTOapi\\ClinicaXPTO.MODEL\\ClinicaXPTO.MODEL.csproj"
+              "C:\\Users\\aless\\OneDrive\\Documentos\\projAW\\ClinicaXPTOapi\\ClinicaXPTO.MODEL\\ClinicaXPTO.MODEL.csproj": {
+                "projectPath": "C:\\Users\\aless\\OneDrive\\Documentos\\projAW\\ClinicaXPTOapi\\ClinicaXPTO.MODEL\\ClinicaXPTO.MODEL.csproj"
               }
             }
           }
@@ -169,14 +169,14 @@
         }
       }
     },
-    "C:\\Users\\aless\\OneDrive\\Documentos\\Projecto AW\\ClinicaXPTOapi\\ClinicaXPTO.MODEL\\ClinicaXPTO.MODEL.csproj": {
+    "C:\\Users\\aless\\OneDrive\\Documentos\\projAW\\ClinicaXPTOapi\\ClinicaXPTO.MODEL\\ClinicaXPTO.MODEL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aless\\OneDrive\\Documentos\\Projecto AW\\ClinicaXPTOapi\\ClinicaXPTO.MODEL\\ClinicaXPTO.MODEL.csproj",
+        "projectUniqueName": "C:\\Users\\aless\\OneDrive\\Documentos\\projAW\\ClinicaXPTOapi\\ClinicaXPTO.MODEL\\ClinicaXPTO.MODEL.csproj",
         "projectName": "ClinicaXPTO.MODEL",
-        "projectPath": "C:\\Users\\aless\\OneDrive\\Documentos\\Projecto AW\\ClinicaXPTOapi\\ClinicaXPTO.MODEL\\ClinicaXPTO.MODEL.csproj",
+        "projectPath": "C:\\Users\\aless\\OneDrive\\Documentos\\projAW\\ClinicaXPTOapi\\ClinicaXPTO.MODEL\\ClinicaXPTO.MODEL.csproj",
         "packagesPath": "C:\\Users\\aless\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aless\\OneDrive\\Documentos\\Projecto AW\\ClinicaXPTOapi\\ClinicaXPTO.MODEL\\obj\\",
+        "outputPath": "C:\\Users\\aless\\OneDrive\\Documentos\\projAW\\ClinicaXPTOapi\\ClinicaXPTO.MODEL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -235,14 +235,14 @@
         }
       }
     },
-    "C:\\Users\\aless\\OneDrive\\Documentos\\Projecto AW\\ClinicaXPTOapi\\ClinicaXPTO.SERVICE\\ClinicaXPTO.SERVICE.csproj": {
+    "C:\\Users\\aless\\OneDrive\\Documentos\\projAW\\ClinicaXPTOapi\\ClinicaXPTO.SERVICE\\ClinicaXPTO.SERVICE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aless\\OneDrive\\Documentos\\Projecto AW\\ClinicaXPTOapi\\ClinicaXPTO.SERVICE\\ClinicaXPTO.SERVICE.csproj",
+        "projectUniqueName": "C:\\Users\\aless\\OneDrive\\Documentos\\projAW\\ClinicaXPTOapi\\ClinicaXPTO.SERVICE\\ClinicaXPTO.SERVICE.csproj",
         "projectName": "ClinicaXPTO.SERVICE",
-        "projectPath": "C:\\Users\\aless\\OneDrive\\Documentos\\Projecto AW\\ClinicaXPTOapi\\ClinicaXPTO.SERVICE\\ClinicaXPTO.SERVICE.csproj",
+        "projectPath": "C:\\Users\\aless\\OneDrive\\Documentos\\projAW\\ClinicaXPTOapi\\ClinicaXPTO.SERVICE\\ClinicaXPTO.SERVICE.csproj",
         "packagesPath": "C:\\Users\\aless\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aless\\OneDrive\\Documentos\\Projecto AW\\ClinicaXPTOapi\\ClinicaXPTO.SERVICE\\obj\\",
+        "outputPath": "C:\\Users\\aless\\OneDrive\\Documentos\\projAW\\ClinicaXPTOapi\\ClinicaXPTO.SERVICE\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -264,17 +264,17 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\aless\\OneDrive\\Documentos\\Projecto AW\\ClinicaXPTOapi\\ClinicaXPTO.DAL\\ClinicaXPTO.DAL.csproj": {
-                "projectPath": "C:\\Users\\aless\\OneDrive\\Documentos\\Projecto AW\\ClinicaXPTOapi\\ClinicaXPTO.DAL\\ClinicaXPTO.DAL.csproj"
+              "C:\\Users\\aless\\OneDrive\\Documentos\\projAW\\ClinicaXPTOapi\\ClinicaXPTO.DAL\\ClinicaXPTO.DAL.csproj": {
+                "projectPath": "C:\\Users\\aless\\OneDrive\\Documentos\\projAW\\ClinicaXPTOapi\\ClinicaXPTO.DAL\\ClinicaXPTO.DAL.csproj"
               },
-              "C:\\Users\\aless\\OneDrive\\Documentos\\Projecto AW\\ClinicaXPTOapi\\ClinicaXPTO.DTO\\ClinicaXPTO.DTO.csproj": {
-                "projectPath": "C:\\Users\\aless\\OneDrive\\Documentos\\Projecto AW\\ClinicaXPTOapi\\ClinicaXPTO.DTO\\ClinicaXPTO.DTO.csproj"
+              "C:\\Users\\aless\\OneDrive\\Documentos\\projAW\\ClinicaXPTOapi\\ClinicaXPTO.DTO\\ClinicaXPTO.DTO.csproj": {
+                "projectPath": "C:\\Users\\aless\\OneDrive\\Documentos\\projAW\\ClinicaXPTOapi\\ClinicaXPTO.DTO\\ClinicaXPTO.DTO.csproj"
               },
-              "C:\\Users\\aless\\OneDrive\\Documentos\\Projecto AW\\ClinicaXPTOapi\\ClinicaXPTO.MODEL\\ClinicaXPTO.MODEL.csproj": {
-                "projectPath": "C:\\Users\\aless\\OneDrive\\Documentos\\Projecto AW\\ClinicaXPTOapi\\ClinicaXPTO.MODEL\\ClinicaXPTO.MODEL.csproj"
+              "C:\\Users\\aless\\OneDrive\\Documentos\\projAW\\ClinicaXPTOapi\\ClinicaXPTO.MODEL\\ClinicaXPTO.MODEL.csproj": {
+                "projectPath": "C:\\Users\\aless\\OneDrive\\Documentos\\projAW\\ClinicaXPTOapi\\ClinicaXPTO.MODEL\\ClinicaXPTO.MODEL.csproj"
               },
-              "C:\\Users\\aless\\OneDrive\\Documentos\\Projecto AW\\ClinicaXPTOapi\\ClinicaXPTO.SHARED\\ClinicaXPTO.SHARED.csproj": {
-                "projectPath": "C:\\Users\\aless\\OneDrive\\Documentos\\Projecto AW\\ClinicaXPTOapi\\ClinicaXPTO.SHARED\\ClinicaXPTO.SHARED.csproj"
+              "C:\\Users\\aless\\OneDrive\\Documentos\\projAW\\ClinicaXPTOapi\\ClinicaXPTO.SHARED\\ClinicaXPTO.SHARED.csproj": {
+                "projectPath": "C:\\Users\\aless\\OneDrive\\Documentos\\projAW\\ClinicaXPTOapi\\ClinicaXPTO.SHARED\\ClinicaXPTO.SHARED.csproj"
               }
             }
           }
@@ -307,6 +307,10 @@
               "target": "Package",
               "version": "[4.12.1, )"
             },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.3.1, )"
+            },
             "MimeKit": {
               "target": "Package",
               "version": "[4.12.0, )"
@@ -332,14 +336,14 @@
         }
       }
     },
-    "C:\\Users\\aless\\OneDrive\\Documentos\\Projecto AW\\ClinicaXPTOapi\\ClinicaXPTO.SHARED\\ClinicaXPTO.SHARED.csproj": {
+    "C:\\Users\\aless\\OneDrive\\Documentos\\projAW\\ClinicaXPTOapi\\ClinicaXPTO.SHARED\\ClinicaXPTO.SHARED.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aless\\OneDrive\\Documentos\\Projecto AW\\ClinicaXPTOapi\\ClinicaXPTO.SHARED\\ClinicaXPTO.SHARED.csproj",
+        "projectUniqueName": "C:\\Users\\aless\\OneDrive\\Documentos\\projAW\\ClinicaXPTOapi\\ClinicaXPTO.SHARED\\ClinicaXPTO.SHARED.csproj",
         "projectName": "ClinicaXPTO.SHARED",
-        "projectPath": "C:\\Users\\aless\\OneDrive\\Documentos\\Projecto AW\\ClinicaXPTOapi\\ClinicaXPTO.SHARED\\ClinicaXPTO.SHARED.csproj",
+        "projectPath": "C:\\Users\\aless\\OneDrive\\Documentos\\projAW\\ClinicaXPTOapi\\ClinicaXPTO.SHARED\\ClinicaXPTO.SHARED.csproj",
         "packagesPath": "C:\\Users\\aless\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aless\\OneDrive\\Documentos\\Projecto AW\\ClinicaXPTOapi\\ClinicaXPTO.SHARED\\obj\\",
+        "outputPath": "C:\\Users\\aless\\OneDrive\\Documentos\\projAW\\ClinicaXPTOapi\\ClinicaXPTO.SHARED\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -361,11 +365,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\aless\\OneDrive\\Documentos\\Projecto AW\\ClinicaXPTOapi\\ClinicaXPTO.DTO\\ClinicaXPTO.DTO.csproj": {
-                "projectPath": "C:\\Users\\aless\\OneDrive\\Documentos\\Projecto AW\\ClinicaXPTOapi\\ClinicaXPTO.DTO\\ClinicaXPTO.DTO.csproj"
+              "C:\\Users\\aless\\OneDrive\\Documentos\\projAW\\ClinicaXPTOapi\\ClinicaXPTO.DTO\\ClinicaXPTO.DTO.csproj": {
+                "projectPath": "C:\\Users\\aless\\OneDrive\\Documentos\\projAW\\ClinicaXPTOapi\\ClinicaXPTO.DTO\\ClinicaXPTO.DTO.csproj"
               },
-              "C:\\Users\\aless\\OneDrive\\Documentos\\Projecto AW\\ClinicaXPTOapi\\ClinicaXPTO.MODEL\\ClinicaXPTO.MODEL.csproj": {
-                "projectPath": "C:\\Users\\aless\\OneDrive\\Documentos\\Projecto AW\\ClinicaXPTOapi\\ClinicaXPTO.MODEL\\ClinicaXPTO.MODEL.csproj"
+              "C:\\Users\\aless\\OneDrive\\Documentos\\projAW\\ClinicaXPTOapi\\ClinicaXPTO.MODEL\\ClinicaXPTO.MODEL.csproj": {
+                "projectPath": "C:\\Users\\aless\\OneDrive\\Documentos\\projAW\\ClinicaXPTOapi\\ClinicaXPTO.MODEL\\ClinicaXPTO.MODEL.csproj"
               }
             }
           }
@@ -411,14 +415,14 @@
         }
       }
     },
-    "C:\\Users\\aless\\OneDrive\\Documentos\\Projecto AW\\ClinicaXPTOapi\\ClinicaXPTOapi\\ClinicaXPTOapi.csproj": {
+    "C:\\Users\\aless\\OneDrive\\Documentos\\projAW\\ClinicaXPTOapi\\ClinicaXPTOapi\\ClinicaXPTOapi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aless\\OneDrive\\Documentos\\Projecto AW\\ClinicaXPTOapi\\ClinicaXPTOapi\\ClinicaXPTOapi.csproj",
+        "projectUniqueName": "C:\\Users\\aless\\OneDrive\\Documentos\\projAW\\ClinicaXPTOapi\\ClinicaXPTOapi\\ClinicaXPTOapi.csproj",
         "projectName": "ClinicaXPTOapi",
-        "projectPath": "C:\\Users\\aless\\OneDrive\\Documentos\\Projecto AW\\ClinicaXPTOapi\\ClinicaXPTOapi\\ClinicaXPTOapi.csproj",
+        "projectPath": "C:\\Users\\aless\\OneDrive\\Documentos\\projAW\\ClinicaXPTOapi\\ClinicaXPTOapi\\ClinicaXPTOapi.csproj",
         "packagesPath": "C:\\Users\\aless\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aless\\OneDrive\\Documentos\\Projecto AW\\ClinicaXPTOapi\\ClinicaXPTOapi\\obj\\",
+        "outputPath": "C:\\Users\\aless\\OneDrive\\Documentos\\projAW\\ClinicaXPTOapi\\ClinicaXPTOapi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -440,17 +444,17 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\aless\\OneDrive\\Documentos\\Projecto AW\\ClinicaXPTOapi\\ClinicaXPTO.DAL\\ClinicaXPTO.DAL.csproj": {
-                "projectPath": "C:\\Users\\aless\\OneDrive\\Documentos\\Projecto AW\\ClinicaXPTOapi\\ClinicaXPTO.DAL\\ClinicaXPTO.DAL.csproj"
+              "C:\\Users\\aless\\OneDrive\\Documentos\\projAW\\ClinicaXPTOapi\\ClinicaXPTO.DAL\\ClinicaXPTO.DAL.csproj": {
+                "projectPath": "C:\\Users\\aless\\OneDrive\\Documentos\\projAW\\ClinicaXPTOapi\\ClinicaXPTO.DAL\\ClinicaXPTO.DAL.csproj"
               },
-              "C:\\Users\\aless\\OneDrive\\Documentos\\Projecto AW\\ClinicaXPTOapi\\ClinicaXPTO.DTO\\ClinicaXPTO.DTO.csproj": {
-                "projectPath": "C:\\Users\\aless\\OneDrive\\Documentos\\Projecto AW\\ClinicaXPTOapi\\ClinicaXPTO.DTO\\ClinicaXPTO.DTO.csproj"
+              "C:\\Users\\aless\\OneDrive\\Documentos\\projAW\\ClinicaXPTOapi\\ClinicaXPTO.DTO\\ClinicaXPTO.DTO.csproj": {
+                "projectPath": "C:\\Users\\aless\\OneDrive\\Documentos\\projAW\\ClinicaXPTOapi\\ClinicaXPTO.DTO\\ClinicaXPTO.DTO.csproj"
               },
-              "C:\\Users\\aless\\OneDrive\\Documentos\\Projecto AW\\ClinicaXPTOapi\\ClinicaXPTO.SERVICE\\ClinicaXPTO.SERVICE.csproj": {
-                "projectPath": "C:\\Users\\aless\\OneDrive\\Documentos\\Projecto AW\\ClinicaXPTOapi\\ClinicaXPTO.SERVICE\\ClinicaXPTO.SERVICE.csproj"
+              "C:\\Users\\aless\\OneDrive\\Documentos\\projAW\\ClinicaXPTOapi\\ClinicaXPTO.SERVICE\\ClinicaXPTO.SERVICE.csproj": {
+                "projectPath": "C:\\Users\\aless\\OneDrive\\Documentos\\projAW\\ClinicaXPTOapi\\ClinicaXPTO.SERVICE\\ClinicaXPTO.SERVICE.csproj"
               },
-              "C:\\Users\\aless\\OneDrive\\Documentos\\Projecto AW\\ClinicaXPTOapi\\ClinicaXPTO.SHARED\\ClinicaXPTO.SHARED.csproj": {
-                "projectPath": "C:\\Users\\aless\\OneDrive\\Documentos\\Projecto AW\\ClinicaXPTOapi\\ClinicaXPTO.SHARED\\ClinicaXPTO.SHARED.csproj"
+              "C:\\Users\\aless\\OneDrive\\Documentos\\projAW\\ClinicaXPTOapi\\ClinicaXPTO.SHARED\\ClinicaXPTO.SHARED.csproj": {
+                "projectPath": "C:\\Users\\aless\\OneDrive\\Documentos\\projAW\\ClinicaXPTOapi\\ClinicaXPTO.SHARED\\ClinicaXPTO.SHARED.csproj"
               }
             }
           }
@@ -474,6 +478,14 @@
             "AutoMapper": {
               "target": "Package",
               "version": "[12.0.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.3.1, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",

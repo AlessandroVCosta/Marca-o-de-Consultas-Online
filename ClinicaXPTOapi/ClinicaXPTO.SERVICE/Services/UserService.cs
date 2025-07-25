@@ -9,6 +9,8 @@ using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Identity;
+
 
 namespace ClinicaXPTO.SERVICE.Services
 {
@@ -16,26 +18,60 @@ namespace ClinicaXPTO.SERVICE.Services
     {
         private readonly IUserRepository _userRepo;
         private readonly IMapper _mapper;
+        private readonly IPasswordHasher<User> _passwordHasher;
+        private readonly JwtService _jwtService;
 
-        public UserService(IUserRepository userRepo, IMapper mapper)
+
+        public UserService(IUserRepository userRepo, IMapper mapper, IPasswordHasher<User> passwordHasher, JwtService jwtService)
         {
             _userRepo = userRepo;
             _mapper = mapper;
+            _passwordHasher = passwordHasher;
+            _jwtService = jwtService;
         }
 
-        public async Task<UserReadDto> CreateUserAsync(UserAddDto dto)
+
+public async Task<UserReadDto> CreateUserAsync(UserAddDto dto)
+{
+    var existingUser = await _userRepo.GetByEmailAsync(dto.Email);
+    if (existingUser != null)
+        throw new Exception("Já existe um usuário com este e-mail.");
+
+    var userEntity = _mapper.Map<User>(dto);
+    userEntity.PasswordHash = _passwordHasher.HashPassword(userEntity, dto.Password);
+
+    var created = await _userRepo.Create(userEntity);
+    if (!created) throw new Exception("Não foi possível criar o usuário.");
+
+    return _mapper.Map<UserReadDto>(userEntity);
+}
+
+
+
+        public async Task<LoginResponseDto> LoginAsync(LoginRequestDto loginDto)
         {
-            var hashedPassword = HashPassword(dto.Password);
+            var user = await _userRepo.GetByEmailAsync(loginDto.Email);
 
-            var userEntity = _mapper.Map<User>(dto);
-            userEntity.PasswordHash = hashedPassword;
-            
+            if (user == null)
+                throw new Exception("Email ou senha inválidos");
 
-            var created = await _userRepo.Create(userEntity);
-            if (!created) throw new Exception("Não foi possível criar o usuário.");
+            var result = _passwordHasher.VerifyHashedPassword(user, user.PasswordHash, loginDto.Password);
 
-            return _mapper.Map<UserReadDto>(userEntity);
+            if (result != PasswordVerificationResult.Success)
+                throw new Exception("Email ou senha inválidos");
+
+            var token = _jwtService.GenerateToken(user); 
+
+            return new LoginResponseDto
+            {
+                Token = token,
+                Nome = user.NomeCompleto,
+                Email = user.Email,
+                Role = user.Role.ToString(),
+                UserId = user.Id
+            };
         }
+
 
         public string HashPassword(string password)
         {

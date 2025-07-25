@@ -19,3 +19,25 @@ C:\Users\aless\OneDrive\Documentos\Projecto AW\API\ClinicaXPTOapi\ClinicaXPTO.DA
 C:\Users\aless\OneDrive\Documentos\Projecto AW\API\ClinicaXPTOapi\ClinicaXPTO.DAL\bin\Debug\net8.0\ClinicaXPTO.SHARED.dll
 C:\Users\aless\OneDrive\Documentos\Projecto AW\API\ClinicaXPTOapi\ClinicaXPTO.DAL\bin\Debug\net8.0\ClinicaXPTO.SHARED.pdb
 C:\Users\aless\OneDrive\Documentos\Projecto AW\API\ClinicaXPTOapi\ClinicaXPTO.DAL\bin\Debug\net8.0\ClinicaXPTO.DTO.pdb
+C:\Users\aless\OneDrive\Documentos\projAW\ClinicaXPTOapi\ClinicaXPTO.DAL\bin\Debug\net8.0\ClinicaXPTO.DAL.deps.json
+C:\Users\aless\OneDrive\Documentos\projAW\ClinicaXPTOapi\ClinicaXPTO.DAL\bin\Debug\net8.0\ClinicaXPTO.DAL.runtimeconfig.json
+C:\Users\aless\OneDrive\Documentos\projAW\ClinicaXPTOapi\ClinicaXPTO.DAL\bin\Debug\net8.0\ClinicaXPTO.DAL.dll
+C:\Users\aless\OneDrive\Documentos\projAW\ClinicaXPTOapi\ClinicaXPTO.DAL\bin\Debug\net8.0\ClinicaXPTO.DAL.pdb
+C:\Users\aless\OneDrive\Documentos\projAW\ClinicaXPTOapi\ClinicaXPTO.DAL\bin\Debug\net8.0\ClinicaXPTO.DTO.dll
+C:\Users\aless\OneDrive\Documentos\projAW\ClinicaXPTOapi\ClinicaXPTO.DAL\bin\Debug\net8.0\ClinicaXPTO.MODEL.dll
+C:\Users\aless\OneDrive\Documentos\projAW\ClinicaXPTOapi\ClinicaXPTO.DAL\bin\Debug\net8.0\ClinicaXPTO.SHARED.dll
+C:\Users\aless\OneDrive\Documentos\projAW\ClinicaXPTOapi\ClinicaXPTO.DAL\bin\Debug\net8.0\ClinicaXPTO.MODEL.pdb
+C:\Users\aless\OneDrive\Documentos\projAW\ClinicaXPTOapi\ClinicaXPTO.DAL\bin\Debug\net8.0\ClinicaXPTO.SHARED.pdb
+C:\Users\aless\OneDrive\Documentos\projAW\ClinicaXPTOapi\ClinicaXPTO.DAL\bin\Debug\net8.0\ClinicaXPTO.DTO.pdb
+C:\Users\aless\OneDrive\Documentos\projAW\ClinicaXPTOapi\ClinicaXPTO.DAL\obj\Debug\net8.0\ClinicaXPTO.DAL.csproj.AssemblyReference.cache
+C:\Users\aless\OneDrive\Documentos\projAW\ClinicaXPTOapi\ClinicaXPTO.DAL\obj\Debug\net8.0\ClinicaXPTO.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aless\OneDrive\Documentos\projAW\ClinicaXPTOapi\ClinicaXPTO.DAL\obj\Debug\net8.0\ClinicaXPTO.DAL.AssemblyInfoInputs.cache
+C:\Users\aless\OneDrive\Documentos\projAW\ClinicaXPTOapi\ClinicaXPTO.DAL\obj\Debug\net8.0\ClinicaXPTO.DAL.AssemblyInfo.cs
+C:\Users\aless\OneDrive\Documentos\projAW\ClinicaXPTOapi\ClinicaXPTO.DAL\obj\Debug\net8.0\ClinicaXPTO.DAL.csproj.CoreCompileInputs.cache
+C:\Users\aless\OneDrive\Documentos\projAW\ClinicaXPTOapi\ClinicaXPTO.DAL\obj\Debug\net8.0\ClinicaXPTO.DAL.sourcelink.json
+C:\Users\aless\OneDrive\Documentos\projAW\ClinicaXPTOapi\ClinicaXPTO.DAL\obj\Debug\net8.0\ClinicaX.7ACFA9EE.Up2Date
+C:\Users\aless\OneDrive\Documentos\projAW\ClinicaXPTOapi\ClinicaXPTO.DAL\obj\Debug\net8.0\ClinicaXPTO.DAL.dll
+C:\Users\aless\OneDrive\Documentos\projAW\ClinicaXPTOapi\ClinicaXPTO.DAL\obj\Debug\net8.0\refint\ClinicaXPTO.DAL.dll
+C:\Users\aless\OneDrive\Documentos\projAW\ClinicaXPTOapi\ClinicaXPTO.DAL\obj\Debug\net8.0\ClinicaXPTO.DAL.pdb
+C:\Users\aless\OneDrive\Documentos\projAW\ClinicaXPTOapi\ClinicaXPTO.DAL\obj\Debug\net8.0\ClinicaXPTO.DAL.genruntimeconfig.cache
+C:\Users\aless\OneDrive\Documentos\projAW\ClinicaXPTOapi\ClinicaXPTO.DAL\obj\Debug\net8.0\ref\ClinicaXPTO.DAL.dll

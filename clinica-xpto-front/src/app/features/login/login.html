@@ -1,25 +1,44 @@
-
-
 <section class="login-section d-flex align-items-center justify-content-center vh-100">
   <div class="card p-4 shadow" style="max-width: 400px; width: 100%;">
     <h2 class="text-center mb-4">Login</h2>
-    <form>
+
+    <form (ngSubmit)="login()">
       <div class="mb-3">
         <label for="email" class="form-label">Email</label>
-        <input id="email" type="email" class="form-control" placeholder="coloque o seu email" />
+        <input
+          id="email"
+          type="email"
+          class="form-control"
+          placeholder="coloque o seu email"
+          [(ngModel)]="email"
+          name="email"
+          required
+        />
       </div>
+
       <div class="mb-3">
         <label for="senha" class="form-label">Senha</label>
-        <input id="senha" type="password" class="form-control" placeholder="coloque a sua senha" />
+        <input
+          id="senha"
+          type="password"
+          class="form-control"
+          placeholder="coloque a sua senha"
+          [(ngModel)]="password"
+          name="password"
+          required
+        />
       </div>
+
+      <div *ngIf="errorMessage" class="alert alert-danger text-center">
+        {{ errorMessage }}
+      </div>
+
       <button class="btn btn-primary w-100" type="submit">Entrar</button>
     </form>
-    <p class="text-center mt-3">
-      Não tem conta?
-    </p>
-    <a *ngIf="isBrowser()" routerLink="/register">Registre-se</a>
 
+    <p class="text-center mt-3">Não tem conta?</p>
+    <div class="text-center">
+      <a *ngIf="isBrowser()" routerLink="/register">Registre-se</a>
+    </div>
   </div>
 </section>
-
-

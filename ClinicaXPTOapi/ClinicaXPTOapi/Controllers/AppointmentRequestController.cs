@@ -30,6 +30,20 @@ namespace ClinicaXPTO.API.Controllers
             return Ok(result);
         }
 
+        [HttpGet("user/{userId}")]
+        public async Task<IActionResult> GetByUserId(Guid userId)
+        {
+            var result = await _appointmentRequestService.GetByUserIdAsync(userId);
+            return Ok(result);
+        }
+
+        [HttpGet("{id}/pdf")]
+        public async Task<IActionResult> ExportToPdf(Guid id)
+        {
+            var pdfBytes = await _appointmentRequestService.ExportToPdfAsync(id);
+            return File(pdfBytes, "application/pdf", $"Pedido_{id}.pdf");
+        }
+
         [HttpPost]
 
         public async Task<IActionResult> Add([FromBody] AppointmentRequestAddDto dto)

@@ -10,6 +10,7 @@ namespace ClinicaXPTO.MODEL.Enums
     {
         Utente = 0,
         Administrativo = 1,
-        Administrador = 2
+        Administrador = 2,
+        Profissionais = 3
     }
 }

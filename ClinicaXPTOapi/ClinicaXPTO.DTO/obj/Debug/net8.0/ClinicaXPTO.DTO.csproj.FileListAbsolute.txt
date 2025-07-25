@@ -13,3 +13,19 @@ C:\Users\aless\OneDrive\Documentos\Projecto AW\API\ClinicaXPTOapi\ClinicaXPTO.DT
 C:\Users\aless\OneDrive\Documentos\Projecto AW\API\ClinicaXPTOapi\ClinicaXPTO.DTO\bin\Debug\net8.0\ClinicaXPTO.MODEL.pdb
 C:\Users\aless\OneDrive\Documentos\Projecto AW\API\ClinicaXPTOapi\ClinicaXPTO.DTO\obj\Debug\net8.0\ClinicaXPTO.DTO.csproj.AssemblyReference.cache
 C:\Users\aless\OneDrive\Documentos\Projecto AW\API\ClinicaXPTOapi\ClinicaXPTO.DTO\obj\Debug\net8.0\ClinicaX.BBD96B3E.Up2Date
+C:\Users\aless\OneDrive\Documentos\projAW\ClinicaXPTOapi\ClinicaXPTO.DTO\bin\Debug\net8.0\ClinicaXPTO.DTO.deps.json
+C:\Users\aless\OneDrive\Documentos\projAW\ClinicaXPTOapi\ClinicaXPTO.DTO\bin\Debug\net8.0\ClinicaXPTO.DTO.dll
+C:\Users\aless\OneDrive\Documentos\projAW\ClinicaXPTOapi\ClinicaXPTO.DTO\bin\Debug\net8.0\ClinicaXPTO.DTO.pdb
+C:\Users\aless\OneDrive\Documentos\projAW\ClinicaXPTOapi\ClinicaXPTO.DTO\bin\Debug\net8.0\ClinicaXPTO.MODEL.dll
+C:\Users\aless\OneDrive\Documentos\projAW\ClinicaXPTOapi\ClinicaXPTO.DTO\bin\Debug\net8.0\ClinicaXPTO.MODEL.pdb
+C:\Users\aless\OneDrive\Documentos\projAW\ClinicaXPTOapi\ClinicaXPTO.DTO\obj\Debug\net8.0\ClinicaXPTO.DTO.csproj.AssemblyReference.cache
+C:\Users\aless\OneDrive\Documentos\projAW\ClinicaXPTOapi\ClinicaXPTO.DTO\obj\Debug\net8.0\ClinicaXPTO.DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aless\OneDrive\Documentos\projAW\ClinicaXPTOapi\ClinicaXPTO.DTO\obj\Debug\net8.0\ClinicaXPTO.DTO.AssemblyInfoInputs.cache
+C:\Users\aless\OneDrive\Documentos\projAW\ClinicaXPTOapi\ClinicaXPTO.DTO\obj\Debug\net8.0\ClinicaXPTO.DTO.AssemblyInfo.cs
+C:\Users\aless\OneDrive\Documentos\projAW\ClinicaXPTOapi\ClinicaXPTO.DTO\obj\Debug\net8.0\ClinicaXPTO.DTO.csproj.CoreCompileInputs.cache
+C:\Users\aless\OneDrive\Documentos\projAW\ClinicaXPTOapi\ClinicaXPTO.DTO\obj\Debug\net8.0\ClinicaXPTO.DTO.sourcelink.json
+C:\Users\aless\OneDrive\Documentos\projAW\ClinicaXPTOapi\ClinicaXPTO.DTO\obj\Debug\net8.0\ClinicaX.BBD96B3E.Up2Date
+C:\Users\aless\OneDrive\Documentos\projAW\ClinicaXPTOapi\ClinicaXPTO.DTO\obj\Debug\net8.0\ClinicaXPTO.DTO.dll
+C:\Users\aless\OneDrive\Documentos\projAW\ClinicaXPTOapi\ClinicaXPTO.DTO\obj\Debug\net8.0\refint\ClinicaXPTO.DTO.dll
+C:\Users\aless\OneDrive\Documentos\projAW\ClinicaXPTOapi\ClinicaXPTO.DTO\obj\Debug\net8.0\ClinicaXPTO.DTO.pdb
+C:\Users\aless\OneDrive\Documentos\projAW\ClinicaXPTOapi\ClinicaXPTO.DTO\obj\Debug\net8.0\ref\ClinicaXPTO.DTO.dll

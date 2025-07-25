@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\ClinicaXPTO.MODEL",
+    "\\ClinicaXPTO.MODEL\\Entities",
+    "\\ClinicaXPTO.SERVICE",
+    "\\ClinicaXPTO.SERVICE\\Services",
+    "\\ClinicaXPTO.SHARED",
+    "\\ClinicaXPTO.SHARED\\IRepository",
+    "\\ClinicaXPTOapi",
+    "\\ClinicaXPTOapi\\Controllers",
+    "\\DAL"
+  ],
+  "SelectedNode": "\\ClinicaXPTOapi\\ClinicaXPTOapi.csproj",
+  "PreviewInSolutionExplorer": false
+}

@@ -54,5 +54,20 @@ namespace ClinicaXPTO.API.Controllers
             if (!deleted) return NotFound();
             return NoContent();
         }
+
+        [HttpPost("login")]
+        public async Task<IActionResult> Login([FromBody] LoginRequestDto loginDto)
+        {
+            try
+            {
+                var result = await _userService.LoginAsync(loginDto);
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { message = ex.Message });
+            }
+        }
+
     }
 }

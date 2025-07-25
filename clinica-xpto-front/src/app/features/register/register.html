@@ -3,25 +3,56 @@
 <section class="register-section d-flex align-items-center justify-content-center vh-100">
   <div class="card p-4 shadow" style="max-width: 500px; width: 100%;">
     <h2 class="text-center mb-4">Registre-se</h2>
-    <form>
+    <form (ngSubmit)="onSubmit()" #registerForm="ngForm">
       <div class="mb-3">
         <label for="nome" class="form-label">Nome Completo</label>
-        <input id="nome" type="text" class="form-control" placeholder="Seu nome completo" />
+        <input id="nome" name="nomeCompleto" [(ngModel)]="form.nomeCompleto" type="text" class="form-control" placeholder="Seu nome completo" required />
       </div>
       <div class="mb-3">
         <label for="email" class="form-label">Email</label>
-        <input id="email" type="email" class="form-control" placeholder="seuemail@exemplo.com" />
+        <input id="email" name="email" [(ngModel)]="form.email" type="email" class="form-control" placeholder="seuemail@exemplo.com" required />
       </div>
       <div class="mb-3">
         <label for="senha" class="form-label">Senha</label>
-        <input id="senha" type="password" class="form-control" placeholder="Crie uma senha" />
+        <input id="senha" name="password" [(ngModel)]="form.password" type="password" class="form-control" placeholder="Crie uma senha" required />
       </div>
       <div class="mb-3">
         <label for="confirmarSenha" class="form-label">Confirmar Senha</label>
-        <input id="confirmarSenha" type="password" class="form-control" placeholder="Repita a senha" />
+        <input id="confirmarSenha" name="confirmarSenha" [(ngModel)]="form.confirmarSenha" type="password" class="form-control" placeholder="Repita a senha" required />
       </div>
-      <button class="btn btn-primary w-100" type="submit">Criar Conta</button>
+      <div class="mb-3">
+        <label for="dataNascimento" class="form-label">Data de Nascimento</label>
+        <input id="dataNascimento" name="dataNascimento" [(ngModel)]="form.dataNascimento" type="date" class="form-control" />
+      </div>
+      <div class="mb-3">
+        <label for="genero" class="form-label">Género</label>
+        <select id="genero" name="genero" [(ngModel)]="form.genero" class="form-control">
+          <option value="">Selecione</option>
+          <option value="0">Masculino</option>
+          <option value="1">Feminino</option>
+          <option value="2">Outro</option>
+        </select>
+      </div>
+      <div class="mb-3">
+        <label for="telefone" class="form-label">Telefone</label>
+        <input id="telefone" name="telefone" [(ngModel)]="form.telefone" type="tel" class="form-control" />
+      </div>
+      <div class="mb-3">
+        <label for="morada" class="form-label">Morada</label>
+        <input id="morada" name="morada" [(ngModel)]="form.morada" type="text" class="form-control" />
+      </div>
+      <div class="mb-3">
+        <label for="fotografiaUrl" class="form-label">Fotografia (URL)</label>
+        <input id="fotografiaUrl" name="fotografiaUrl" [(ngModel)]="form.fotografiaUrl" type="url" class="form-control" />
+      </div>
+      <div class="mb-3">
+        <label for="numeroUtenteSaude" class="form-label">Número Utente de Saúde</label>
+        <input id="numeroUtenteSaude" name="numeroUtenteSaude" [(ngModel)]="form.numeroUtenteSaude" type="text" class="form-control" />
+      </div>
+      <button class="btn btn-primary w-100" type="submit" [disabled]="loading">Criar Conta</button>
     </form>
+    <div *ngIf="error" class="alert alert-danger mt-2">{{ error }}</div>
+    <div *ngIf="success" class="alert alert-success mt-2">Conta criada com sucesso!</div>
     <p class="text-center mt-3">
       Já tem conta?
       <a *ngIf="isBrowser()" routerLink="/login">Faça login</a>

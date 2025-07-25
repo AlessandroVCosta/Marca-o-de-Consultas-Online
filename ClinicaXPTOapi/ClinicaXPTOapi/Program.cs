@@ -9,17 +9,34 @@ using Microsoft.EntityFrameworkCore;
 using System.Text.Json.Serialization;
 using Microsoft.AspNetCore.Identity;
 using ClinicaXPTO.MODEL.Entities;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-// Controllers e Swagger
+// ========================================
+// CONFIGURAÇÃO DE CORS
+// ========================================
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAngularFrontend", policy =>
+    {
+        policy.WithOrigins("http://localhost:4200")
+              .AllowAnyHeader()
+              .AllowAnyMethod()
+              .AllowCredentials();
+    });
+});
+
+// ========================================
+// Serviços da aplicação
+// ========================================
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddScoped<JwtService>();
 
-
-//converter enums
 builder.Services
     .AddControllers()
     .AddJsonOptions(opts =>
@@ -28,17 +45,16 @@ builder.Services
             new JsonStringEnumConverter());
     });
 
-//conexao com a bd
+// Conexão com a BD
 var connectionString = builder.Configuration.GetConnectionString("ClinicaXPTOConnection");
 builder.Services.AddDbContext<ClinicaContext>(options =>
-    options.UseSqlServer(connectionString, sqplOptions =>
-        sqplOptions.MigrationsAssembly(typeof(ClinicaContext).Assembly.FullName)));
+    options.UseSqlServer(connectionString, sqlOptions =>
+        sqlOptions.MigrationsAssembly(typeof(ClinicaContext).Assembly.FullName)));
 
-
-//  AutoMapper
+// AutoMapper
 builder.Services.AddAutoMapper(typeof(AutoMapperProfile).Assembly);
 
-//  Reposit�rios
+// Repositórios
 builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IAnonymousRequestRepository, AnonymousRequestRepository>();
@@ -47,7 +63,7 @@ builder.Services.AddScoped<IProfessionalRepository, ProfessionalRepository>();
 builder.Services.AddScoped<IAppointmentRequestRepository, AppointmentRequestRepository>();
 builder.Services.AddScoped<IAppointmentRequestItemRepository, AppointmentRequestItemRepository>();
 
-//  Services
+// Services
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IAnonymousRequestService, AnonymousRequestService>();
 builder.Services.AddScoped<IActTypeService, ActTypeService>();
@@ -55,22 +71,42 @@ builder.Services.AddScoped<IProfessionalService, ProfessionalService>();
 builder.Services.AddScoped<IAppointmentRequestService, AppointmentRequestService>();
 builder.Services.AddScoped<IAppointmentRequestItemService, AppointmentRequestItemService>();
 builder.Services.AddScoped<IEmailService, EmailService>();
+builder.Services.AddScoped<JwtService>();
 builder.Services.AddScoped<IPasswordHasher<User>, PasswordHasher<User>>();
 
-
+// Autenticação JWT
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer(opt =>
+    {
+        opt.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuer = true,
+            ValidateAudience = true,
+            ValidateLifetime = true,
+            ValidateIssuerSigningKey = true,
+            ValidIssuer = builder.Configuration["Jwt:Issuer"],
+            ValidAudience = builder.Configuration["Jwt:Audience"],
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
+        };
+    });
 
 var app = builder.Build();
 
-
-// Configure the HTTP request pipeline.
+// ========================================
+// MIDDLEWARE
+// ========================================
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
+// Use CORS antes da autenticação
+app.UseCors("AllowAngularFrontend");
+
+app.UseAuthentication();
 app.UseAuthorization();
+
 app.MapControllers();
 
 app.Run();

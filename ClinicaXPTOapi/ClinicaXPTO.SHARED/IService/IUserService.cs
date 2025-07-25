@@ -16,6 +16,8 @@ namespace ClinicaXPTO.SHARED.IService
         Task<UserReadDto?> GetByIdAsync(Guid id);
         Task<IEnumerable<UserReadDto>> GetAllAsync();
         Task<UserReadDto?> GetByEmailAsync(string email);
-        
+        Task<LoginResponseDto> LoginAsync(LoginRequestDto loginDto);
+
+
     }
 }

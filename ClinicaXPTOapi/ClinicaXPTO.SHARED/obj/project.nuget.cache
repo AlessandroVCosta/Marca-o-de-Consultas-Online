@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8EBXOo2vYkA=",
+  "dgSpecHash": "uS2zoX2LCs8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\aless\\OneDrive\\Documentos\\Projecto AW\\ClinicaXPTOapi\\ClinicaXPTO.SHARED\\ClinicaXPTO.SHARED.csproj",
+  "projectFilePath": "C:\\Users\\aless\\OneDrive\\Documentos\\projAW\\ClinicaXPTOapi\\ClinicaXPTO.SHARED\\ClinicaXPTO.SHARED.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aless\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.6\\microsoft.entityframeworkcore.8.0.6.nupkg.sha512",
     "C:\\Users\\aless\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.6\\microsoft.entityframeworkcore.abstractions.8.0.6.nupkg.sha512",
